@@ -1,0 +1,19 @@
+
+body{
+    background: linear-gradient(#c79345,#9198e5);
+}
+ 
+h1, h2{
+    text-align: center;
+}
+
+h1{
+   font-size: xx-large;
+}
+
+main p{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 75px;
+}

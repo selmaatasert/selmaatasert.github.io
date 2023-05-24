@@ -1,1 +1,0 @@
-# selmaatasert.github.io
