@@ -1,0 +1,88 @@
+
+main {
+
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    
+   }
+   
+   
+   .firstContent {
+       
+       position: absolute;
+       top:100px;
+       left: 200px;
+       
+   }
+   
+   .secondContent {
+       position: absolute;
+       top: 100px;
+       left: 800px;
+   
+   }
+   
+   .steelblue {
+       background-color: steelblue;
+       width: 200px;
+       height: 200px;   
+       transition: all 1s ease-in-out 0s;
+     
+   }
+   
+   body:hover .steelblue {
+       transform: translateX(200px) rotate(-90deg) ;
+   }
+   
+   .dimgray {
+       width: 200px;
+       height: 200px;
+       background-color: dimgray;
+       transition: all 1s ease-in-out 0s;
+    
+      
+   }
+   body:hover .dimgray {
+       transform:  translateX(-200px) rotate(90deg) ;
+   }
+   
+   .yellow {
+       width: 200px;
+       height: 200px;
+       background-color: yellow;
+       transition: all 1s ease-in-out 0s;
+       
+   }
+   
+   body:hover .yellow {
+       
+       transform: translateX(200px) rotate(90deg) ;
+       
+   }
+   
+   .rosybrown {
+       width: 200px;
+       height: 200px;
+       background-color: rosybrown;
+       transition: all 1s ease-in-out 0s;
+      
+   }
+   
+   body:hover .rosybrown {
+       
+       transform: translateX(-200px) rotate(-90deg) ;
+       
+   }
+   
+   .message {
+    
+       font-weight: bold;
+       font-size: 80px;
+   
+     
+      
+   }
